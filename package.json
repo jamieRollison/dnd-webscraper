@@ -1,0 +1,24 @@
+{
+  "name": "dndscraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "jsdom": "^21.1.1",
+    "node-fetch": "^3.3.1"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/jsdom": "^21.1.1",
+    "typescript": "^5.0.4"
+  }
+}
